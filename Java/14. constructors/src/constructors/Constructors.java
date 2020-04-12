@@ -3,7 +3,7 @@ package constructors;
 
 class Osoba {
     
-    // Instancne promenljive
+    // Instantne promenljive
     String ime;
     String prezime;
     int godine;
