@@ -1,0 +1,7 @@
+prva
+druga
+treca
+cetvrta
+
+neki tekst
+nebitan
