@@ -2,7 +2,7 @@ package staticPrim;
 
 
 class Osoba {
-	//Konacna za sve objekte klas Osoba
+    //Konstanta , Zajednicka za sve objekte klase Osoba
     public final static int LUCKY_NUMBER = 7;
     
     public String ime;
@@ -18,7 +18,8 @@ class Osoba {
     public void show() {
         System.out.println("Id: " + id + " ,opis: " + opis + " ,ime: " + ime);
     }
-    //Ne bi radilo za system.out.println(name);
+    //Ne bi radilo za system.out.println(ime);
+    //za static metodu , mora static promenljiva
     public static void info() {
         System.out.println(opis);       
     }
