@@ -4,9 +4,9 @@ public class Osoba {
 	private String ime;
     protected String prezime;
     int godine;
-    //los nacin programiranja sa public promenljivom 
+    //lose
     public String los;
-    //public se koristi samo kod inicijalizacije konstante
+    //ovo moze final
     public final static int ID = 8;
     
 	public Osoba() {
