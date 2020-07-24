@@ -3,6 +3,7 @@ import access.Osoba;
 
 public class PackagesAccess {
 
+	//modifikatori nivoa pristupa
 	//private--samo ista klasa
 	//protected --  isti paket i klasa koja nasledjuje
 	//no modifier- samo isti paket
