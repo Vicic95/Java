@@ -10,6 +10,7 @@ public class AnonymousClass {
 			public void show() {
 				System.out.println("Override Osoba");
 			}
+			
 		};
 		osoba1.show();
 		
