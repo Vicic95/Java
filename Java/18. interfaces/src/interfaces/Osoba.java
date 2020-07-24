@@ -1,7 +1,9 @@
 package interfaces;
 
 public class Osoba implements InfoInt {
-
+	//Interfejs se implementira pomocu implements
+	//Moze biti pozvan veci broj interfejsa
+	//Svaka metoda deklarisana u interfejsu , mora biti definisana u klasi, koja je implementira
 	String ime;
     String prezime;
     int godine;
