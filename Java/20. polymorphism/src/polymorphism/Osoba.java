@@ -8,6 +8,8 @@ public class Osoba {
 		
 	}
     
+	//Metod ne sme biti private , da bi bio polimorfan
+	//Polimorfni metod mora imati isti potpis i u baznoj i u izvedenim klasama
     public void show() {
     	System.out.println("Osoba-Ime: "+ime+"Prezime: "+prezime+" Godine: "+godine);
     }
