@@ -14,9 +14,11 @@ class Osoba {
     public void pozdrav() {
     	System.out.println("Zdravo");
     }
-	public String getIme() {
+    //Geteri moraju da vracaju podatke istog tipa kao promenljiva
+    public String getIme() {
 		return ime;
 	}
+    //Seteri moraju da primaju podatke isto tipa kao promenljiva
 	public void setIme(String ime) {
 		this.ime = ime;
 	}
@@ -43,7 +45,8 @@ class Osoba {
 public class GetSet {
 
 	public static void main(String[] args) {
-		// Kreiranje objekta osoba pomocu klase Osoba
+		//Uz pomoc getera i setera metoda moze da postane dostupna samo za citanje ili samo za pisanje
+		//Korisna je kod skrivanja podataka
         Osoba osoba1 = new Osoba();    
         osoba1.ime = "Pera";
         osoba1.prezime = "Peric";
@@ -60,8 +63,6 @@ public class GetSet {
         osoba1.setPrezime("Jovic");
         System.out.println("Izmenjeno-Godine: "+osoba1.getGodine()+" Ime: "+osoba1.getIme()+" Prezime: "+osoba1.getPrezime());
         
-        
-        // Kreiranje drugog objekta osoba
         Osoba osoba2 = new Osoba();
         osoba2.ime = "Zika";
         osoba2.prezime = "Zikic";
